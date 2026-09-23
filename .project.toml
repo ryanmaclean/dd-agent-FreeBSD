@@ -1,0 +1,12 @@
+schema = "ryanlab.project.v1"
+name = "dd-agent-FreeBSD"
+status = "reference"
+role = "Prior art for Datadog on FreeBSD"
+
+canonical_for = ["freebsd-datadog-lessons"]
+integrates_with = ["smolfire", "moth"]
+do_not_implement = ["embedded-heavy-telemetry-default"]
+
+registry = "ryanmaclean/skills:docs/PROJECTS.md"
+glossary = "ryanmaclean/skills:docs/GLOSSARY.md"
+benchmark_schema = "ryanmaclean/skills:schemas/bench.v1.schema.json"
